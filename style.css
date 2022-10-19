@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    /* --navbar-height:59; */
+}
+
+#navbar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+#navbar span {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#logo {
+    align-items: center;
+    /* margin: 34px 45px; */
+}
+
+#logo img {
+    height: 35px;
+    width: 35px;
+    margin: 2px 10px;
+    cursor: pointer;
+}
+
+#navbar {
+    position: relative;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul {
+    display: flex;
+    float: left;
+    margin-left: 200px;
+}
+
+#navbar ul li {
+    display: flex;
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+}
+
+span {
+    color: #e07be0;
+}
+
+#navbar ul li a {
+    color: rgb(63, 28, 40);
+    padding: 3px 34px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: #a10b8d;
+    /* background-color: white; */
+}
+
+#searchBar a {
+    display: float;
+    margin-left: 292px;
+    color: white;
+    background-color: #e07be0;
+    padding: 7px 14px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#searchBar a:hover {
+    color: rgb(106, 16, 16);
+    background-color: #e07be0;
+}
+
+/* section style */
+.section {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.box-1 h1 {
+    color: rgb(24, 31, 28);
+    font-size: 4rem;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.box-1 p {
+    color: rgb(24, 31, 28);
+    font-family: 'Fredoka One', cursive;
+
+    font-size: 1.5rem;
+}
+
+.h1-primary {
+    font-size: 4rem;
+}
+
+.container {
+    float: left;
+    width: 60%;
+}
+
+.image {
+    float: right;
+    width: 80%;
+    overflow: hidden;
+}
+
+.image img {
+    border: white 2ps solid;
+    height: 520px;
+    width: 800px;
+    opacity: 0.7;
+}
+
+.box-1 {
+    padding: 0px 20px;
+}
+
+.box-2 {
+    display: flex;
+}
+
+.button-1 {
+    padding: 6px 20px;
+    margin: 17px;
+    border-radius: 20px;
+    margin-left: 70px;
+    border: #420039 4px solid;
+}
+
+.button-2 {
+    padding: 6px 20px;
+    background-color: #e07be0;
+    margin: 17px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.order {
+    color: aliceblue;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Register {
+    color: #420039;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+/* group style */
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box-4 {
+    background-color: #e7dbe5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#box-4 {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px;
+    row-gap: 30px;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    padding: 0px 20px 20px 20px;
+}
+
+.h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+}
+
+.box-4 img {
+    height: 200px;
+    width: 250px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.h3 {
+    font-size: 2.2rem;
+    margin: 6px;
+    color: rgb(32, 32, 33);
+}
+
+.p2 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 2px;
+}
+
+.card {
+    background-color: #e07be0;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 110px;
+    text-align: center;
+}
+
+.card a {
+    cursor: pointer;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* section2 style */
+.section2 {
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+.section2::before {
+    content: "";
+    background-color: rgb(197, 181, 212);
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.group-2 h1 {
+    color: rgb(24, 31, 28);
+    text-align: center;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.group-2 p {
+    padding: 0px 70px;
+    color:#757074;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.h1-secondary {
+    font-size: 3rem;
+}
+
+.box-5 {
+    display: flex;
+}
+
+.btn-1 {
+    border: 4px solid #420039;
+    padding: 6px 20px;
+    background-color: aliceblue;
+    margin: 17px;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.btn-2 {
+    padding: 6px 20px;
+    background-color: #e07be0;
+    margin: 17px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 300px
+}
+
+.order-an-offer {
+    color: aliceblue;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Register-card {
+    color: #420039;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.group3 {
+    float: left;
+    width: 65%;
+}
+
+.side {
+    float: right;
+    width: 35%;
+}
+
+.side img {
+    margin-top: 30px;
+}
+
+/* footer style */
+footer{
+/* margin-top: 100px; */
+    background-color: #420039;
+    color: white;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    height: 1.5rem;
+    justify-content: baseline;
+}
+#footer {
+
+}
